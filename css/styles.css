@@ -4265,7 +4265,7 @@ hr {
   font-family: "Shadows Into Light Two", Arial, sans-serif;
   font-size: 30px;
   color: #667580;
-  background: url("img/city-cardzlogo-50px.png") no-repeat center left;
+  background: url("../img/city-cardzlogo-50px.png") no-repeat center left;
   display: block;
   height: 50px;
   -webkit-box-sizing: border-box;
@@ -4298,7 +4298,7 @@ hr {
   background: #48c3e0;
 }
 .button.appstore {
-  background: #d5dadd url("img/appstore-icon2.png") no-repeat 30px center;
+  background: #d5dadd url("../img/appstore-icon2.png") no-repeat 30px center;
   padding-left: 50px;
   width: 150px;
   height: 40px;
@@ -4348,7 +4348,7 @@ hr {
 }
 .header {
   height: 400px;
-  background: url("img/screenshot2-blue.png") no-repeat 80% bottom;
+  background: url("../img/screenshot2-blue.png") no-repeat 80% bottom;
 }
 .header h1 {
   font-weight: 50;
@@ -4365,7 +4365,7 @@ hr {
 }
 .infographic {
   height: 350px;
-  background: url("img/infographic-white.png") no-repeat 50% 40%;
+  background: url("../img/infographic-white.png") no-repeat 50% 40%;
   padding-top: 50px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -4400,7 +4400,7 @@ hr {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   height: 600px;
-  background: url("img/marketeer.png") no-repeat 100% 50%, url("../img/tourist.png") no-repeat 5% 50%;
+  background: url("../img/marketeer.png") no-repeat 100% 50%, url("../img/tourist.png") no-repeat 5% 50%;
 }
 .advantages h1 {
   font-size: 40px;
@@ -4446,7 +4446,7 @@ hr {
 }
 #screenshot {
   height: 350px;
-  background: url("img/screenshot2.png") no-repeat center bottom;
+  background: url("../img/screenshot2.png") no-repeat center bottom;
 }
 .clients {
   padding-top: 50px;
@@ -4461,7 +4461,7 @@ hr {
 }
 .clients .client {
   text-align: center;
-  background: url("img/iamsterdam.png") no-repeat center center;
+  background: url("../img/iamsterdam.png") no-repeat center center;
   height: 100px;
 }
 .pricing {
@@ -4524,31 +4524,31 @@ hr {
 }
 .case .iphones .iphonerow {
   height: 375px;
-  background: url("img/iphonerow-shadow.png") no-repeat center bottom;
+  background: url("../img/iphonerow-shadow.png") no-repeat center bottom;
 }
 .case .iphones .iphonerow .splash {
-  background: url("img/iphone-splash2.png") no-repeat center;
+  background: url("../img/iphone-splash2.png") no-repeat center;
   height: 400px;
 }
 .case .iphones .iphonerow .edit {
-  background: url("img/iphone-edit2.png") no-repeat center;
+  background: url("../img/iphone-edit2.png") no-repeat center;
   height: 400px;
 }
 .case .iphones .iphonerow .message {
-  background: url("img/iphone-message2.png") no-repeat center;
+  background: url("../img/iphone-message2.png") no-repeat center;
   height: 400px;
 }
 .case .iphones .cardrow {
-  background: url("img/iphonerow-shadow.png") no-repeat center bottom;
+  background: url("../img/iphonerow-shadow.png") no-repeat center bottom;
   height: 300px;
   margin-top: 60px;
 }
 .case .iphones .cardrow .cardone {
-  background: url("img/card4-300px.png") no-repeat 70% 100%;
+  background: url("../img/card4-300px.png") no-repeat 70% 100%;
   height: 300px;
 }
 .case .iphones .cardrow .cardtwo {
-  background: url("img/card2-300px.png") no-repeat 30% 100%;
+  background: url("../img/card2-300px.png") no-repeat 30% 100%;
   height: 300px;
 }
 .about {
