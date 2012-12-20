@@ -4535,14 +4535,25 @@ hr {
   text-align: center;
   font-size: 14px;
 }
+.buttons{
+  margin-top: 50px;
+}
 .about .button {
   background: #ffffff;
   color: #48c3e0;
-  width: 300px;
+  width: 250px;
   line-height: 40px;
-  margin-left: 150px;
+  margin-top: 0px;
 }
 .about .button:hover {
   background: #667580;
+}
+.tweet-count{
+  float: left;
+  margin-right: 20px;
+}
+.fb-like{
+  float: left;
+  margin-right: 20px;
 }
 /* @import "../bootstrap/less/responsive.less"; */
