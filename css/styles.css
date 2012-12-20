@@ -4364,8 +4364,7 @@ hr {
   color: #667580;
 }
 .infographic {
-  height: 350px;
-  background: url("../img/infographic-white.png") no-repeat 50% 40%;
+  background: #48c3e0, url("../img/infographic-white.png") no-repeat 50% 40%;
   padding-top: 50px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -4378,17 +4377,6 @@ hr {
 }
 .infographic p {
   color: #ffffff;
-}
-.infographic :after {
-  content: '';
-  background: #48c3e0;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 450px;
-  height: 350px;
-  z-index: -20;
-  border-bottom: 1px solid #23b0d2;
 }
 .infographic .infographicstep {
   margin-top: 190px;
