@@ -4386,10 +4386,10 @@ hr {
   padding-bottom: 75px;
   width: 100%;
   background: #dce5df;
+  min-width: 1100px;
 }
 .advantagerow{
   background: url("../img/marketeer.png") no-repeat 100% 50%, url("../img/tourist.png") no-repeat 5% 50%;
-  min-width: 1100px;
 }
 .advantages h1 {
   font-size: 40px;
