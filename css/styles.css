@@ -4546,4 +4546,19 @@ hr {
   float: left;
   margin-right: 20px;
 }
+
+.footer{
+  background: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer a{
+  color: #00ade4;
+}
+
+.footer span {
+  color: #ffffff;
+}
+
 /* @import "../bootstrap/less/responsive.less"; */
