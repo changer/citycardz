@@ -4348,6 +4348,7 @@ hr {
 }
 .header {
   height: 400px;
+  min-width: 1100px;
   background: url("../img/screenshot2-blue.png") no-repeat 80% bottom;
 }
 .header h1 {
@@ -4364,13 +4365,11 @@ hr {
   color: #667580;
 }
 .infographic {
-  height: 350px;
-  background: url("../img/infographic-white.png") no-repeat 50% 40%;
+  background: url("../img/infographic-white.png") no-repeat 50% 40%, #48c3e0;
   padding-top: 50px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+  padding-bottom: 100px;
+  min-width: 1100px;
+  width: 100%;
 }
 .infographic h4 {
   color: #ffffff;
@@ -4379,27 +4378,17 @@ hr {
 .infographic p {
   color: #ffffff;
 }
-.infographic :after {
-  content: '';
-  background: #48c3e0;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 450px;
-  height: 350px;
-  z-index: -20;
-  border-bottom: 1px solid #23b0d2;
-}
 .infographic .infographicstep {
   margin-top: 190px;
 }
 .advantages {
   padding-top: 50px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  height: 600px;
+  padding-bottom: 75px;
+  width: 100%;
+  background: #dce5df;
+  min-width: 1100px;
+}
+.advantagerow{
   background: url("../img/marketeer.png") no-repeat 100% 50%, url("../img/tourist.png") no-repeat 5% 50%;
 }
 .advantages h1 {
@@ -4433,28 +4422,15 @@ hr {
   color: #667580;
   text-shadow: 0 1px 1px solid #ffffff;
 }
-.advantages :after {
-  content: '';
-  background: #dce5df;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 800px;
-  height: 600px;
-  z-index: -22;
-  border-bottom: 1px solid #bfcfc4;
-}
 #screenshot {
   height: 350px;
   background: url("../img/screenshot2.png") no-repeat center bottom;
 }
 .clients {
   padding-top: 50px;
-  height: 200px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+  padding-bottom: 75px;
+  width: 100%;
+  min-width: 1100px;
 }
 .clients .description h3 {
   color: #667580;
@@ -4466,11 +4442,10 @@ hr {
 }
 .pricing {
   padding-top: 50px;
-  height: 550px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+  padding-bottom: 75px;
+  background: #00a885;
+  width: 100%;
+  min-width: 1100px;
 }
 .pricing h1 {
   color: #005c48;
@@ -4484,43 +4459,20 @@ hr {
 .pricing .pricing-details {
   margin-top: 60px;
 }
-.pricing :after {
-  content: '';
-  background: #00a885;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 1600px;
-  height: 550px;
-  z-index: -22;
-  border-bottom: 1px solid #00755d;
-}
 .pricing ul {
   color: #ffffff;
   font-size: 14px;
 }
 .case {
-  height: 1000px;
   padding-top: 50px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+  background: #667580;
+  padding-bottom: 75px;
+  width: 100%;
+  min-width: 1100px;
 }
 .case h1 {
   font-size: 60px;
   color: #ffffff;
-}
-.case :after {
-  content: '';
-  background: #667580;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 2150px;
-  height: 1000px;
-  z-index: -22;
-  border-bottom: 1px solid #4f5b64;
 }
 .case .iphones .iphonerow {
   height: 375px;
@@ -4552,23 +4504,11 @@ hr {
   height: 300px;
 }
 .about {
-  height: 550px;
   padding-top: 50px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.about :after {
-  content: '';
+  padding-bottom: 100px;
   background: #48c3e0;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 3150px;
-  height: 550px;
-  z-index: -22;
-  border-bottom: 1px solid #23b0d2;
+  width: 100%;
+  min-width: 1100px;
 }
 .about h1 {
   color: #187990;
@@ -4585,14 +4525,40 @@ hr {
   text-align: center;
   font-size: 14px;
 }
+.buttons{
+  margin-top: 50px;
+}
 .about .button {
   background: #ffffff;
   color: #48c3e0;
-  width: 300px;
+  width: 250px;
   line-height: 40px;
-  margin-left: 150px;
+  margin-top: 0px;
 }
 .about .button:hover {
   background: #667580;
 }
+.tweet-count{
+  float: left;
+  margin-right: 20px;
+}
+.fb-like{
+  float: left;
+  margin-right: 20px;
+}
+
+.footer{
+  background: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer a{
+  color: #00ade4;
+}
+
+.footer span {
+  color: #ffffff;
+}
+
 /* @import "../bootstrap/less/responsive.less"; */
