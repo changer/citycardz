@@ -4298,18 +4298,19 @@ hr {
   background: #48c3e0;
 }
 .button.appstore {
-  background: #d5dadd url("../img/appstore-icon2.png") no-repeat 30px center;
+  background: #667580 url("../img/appstore-icon2.png") no-repeat 30px center;
   padding-left: 50px;
   width: 150px;
   height: 40px;
   text-shadow: none;
-  /* 			&:hover{ */
-
-  /* 				background: @citycardzBlue url("appstore-icon2.png") no-repeat 30px center; */
-
-  /* 			} */
-
 }
+
+.button.appstore:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #48c3e0;
+}
+
 .button.contact {
   line-height: 40px;
 }
@@ -4385,41 +4386,34 @@ hr {
   padding-top: 50px;
   padding-bottom: 75px;
   width: 100%;
-  background: #dce5df;
+  background: #609dd3;
   min-width: 1100px;
-}
-.advantagerow{
-  background: url("../img/marketeer.png") no-repeat 100% 50%, url("../img/tourist.png") no-repeat 5% 50%;
 }
 .advantages h1 {
   font-size: 40px;
-  color: #92a097;
+  color: #1867b5;
+  text-align: center;
 }
 .advantages h1 strong {
-  color: #5f6d64;
+  color: #ffffff;
 }
 .advantages .advantagelist {
   padding-top: 75px;
 }
 .advantages ol {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #5f6d64;
-  font-size: 18px;
-  font-weight: 200;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
   list-style: none;
   margin-left: 0px;
-}
-.advantages ol.rightlist {
-  width: 300px;
+  text-align: center;
 }
 .advantages ol li {
   margin-top: 20px;
 }
-.advantages .left {
-  text-align: right;
-}
 .advantages .description h3 {
-  color: #667580;
+  color: #ffffff;
   text-shadow: 0 1px 1px solid #ffffff;
 }
 #screenshot {
@@ -4456,6 +4450,16 @@ hr {
   color: #ffffff;
   text-shadow: 0 1px 1px #555555;
 }
+
+.pricing h1 small {
+  color: #005c48;
+}
+
+.pricing h2{
+  font-weight: 600;
+  line-height: 28px;
+}
+
 .pricing .pricing-details {
   margin-top: 60px;
 }
@@ -4463,6 +4467,24 @@ hr {
   color: #ffffff;
   font-size: 14px;
 }
+
+.pricing li {
+  margin-top: 10px;
+}
+
+.pricing-image-container{
+  height: 120px;
+  text-align: center;
+}
+
+#pricing-startup, #pricing-app{
+  margin-top: 20px;
+}
+
+#pricing-prepaid{
+  margin-top: 31px;
+}
+
 .case {
   padding-top: 50px;
   background: #667580;
@@ -4514,12 +4536,16 @@ hr {
   color: #187990;
   font-size: 50px;
 }
-.about .content h3 {
+.about .content h3, .advantages h3 {
   color: #ffffff;
   text-align: center;
-  margin-top: 75px;
   font-size: 24px;
 }
+
+.about .content h3{
+  margin-top: 75px;
+}
+
 .about .content p {
   margin-top: 30px;
   text-align: center;
