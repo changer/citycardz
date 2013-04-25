@@ -4391,7 +4391,7 @@ hr {
 }
 .advantages h1 {
   font-size: 40px;
-  color: #4c7ba4;
+  color: #1867b5;
   text-align: center;
 }
 .advantages h1 strong {
@@ -4450,6 +4450,16 @@ hr {
   color: #ffffff;
   text-shadow: 0 1px 1px #555555;
 }
+
+.pricing h1 small {
+  color: #005c48;
+}
+
+.pricing h2{
+  font-weight: 600;
+  line-height: 28px;
+}
+
 .pricing .pricing-details {
   margin-top: 60px;
 }
@@ -4457,6 +4467,24 @@ hr {
   color: #ffffff;
   font-size: 14px;
 }
+
+.pricing li {
+  margin-top: 10px;
+}
+
+.pricing-image-container{
+  height: 120px;
+  text-align: center;
+}
+
+#pricing-startup, #pricing-app{
+  margin-top: 20px;
+}
+
+#pricing-prepaid{
+  margin-top: 31px;
+}
+
 .case {
   padding-top: 50px;
   background: #667580;
