@@ -4429,11 +4429,15 @@ hr {
 .clients .description h3 {
   color: #667580;
 }
-.clients .client {
+
+.client {
   text-align: center;
-  background: url("../img/iamsterdam.png") no-repeat center center;
-  height: 100px;
 }
+
+#logo-iamsterdam {
+  margin-top: 65px;
+}
+
 .pricing {
   padding-top: 50px;
   padding-bottom: 75px;
