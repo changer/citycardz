@@ -17,6 +17,10 @@
 	<link rel="icon" href="/img/favicon-32px.png" />
 
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+  <script src="/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -84,7 +88,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="span4 offset1 left advantagelist">
+					<div class="span4 offset1 left-list advantagelist">
 						<h1>For the <strong>user</strong></h1>
 						<ol>
 							<li>Send a free postcard from your Iphone or Android device with a self made photograph! </li>
@@ -117,13 +121,35 @@
 				<div class="span2 description">
 					<h3>Clients</h3>
 				</div>
-				<div class="span6 client">
-					<img src="img/iamsterdam.png" id="logo-iamsterdam">
-				</div>
-				<div class="span6 client">
-					<img src="img/zwolle-marketing.jpg">
+				<div class="span12">
+					<div id="myCarousel" class="carousel slide">
+					  <!-- Carousel items -->
+					  <div class="carousel-inner">
+					    <div class="active item">
+					    	<div class="row-fluid clients-row">
+					    		<div class="span6 client">
+										<img src="img/iamsterdam.png" id="logo-iamsterdam">
+									</div>
+									<div class="span6 client">
+										<img src="img/zwolle-marketing.jpg">
+									</div>
+					    	</div>
+					  	</div>
+					    <div class="item">
+					    	<div class="row-fluid clients-row">
+					    		<div class="span6 client">
+										<img src="img/transavia.png" id="logo-transavia">
+									</div>
+									<div class="span6 client">
+										<img src="img/sportas.png" id="logo-sportas">
+									</div>
+					    	</div>
+					    </div>
+					  </div>
+					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 
@@ -273,14 +299,21 @@
 	</div>
 
 	<script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-2326476-49']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-   </script>
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-2326476-49']);
+     _gaq.push(['_trackPageview']);
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+  </script>
+	<script type='text/javascript'>
+    $(document).ready(function() {
+      $('.carousel').carousel({
+      	interval: 6000
+      })
+    });
+	</script>
 </body>
 </html>
